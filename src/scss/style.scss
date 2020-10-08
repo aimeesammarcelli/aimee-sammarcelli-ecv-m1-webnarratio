@@ -1,0 +1,13 @@
+$Primary-color: blue;
+$Margin:10px;
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    h1{
+        color: $Primary-color;
+        font-weight: bold;
+        font-size: 30px;
+        margin-bottom: $Margin;
+    }
+}
