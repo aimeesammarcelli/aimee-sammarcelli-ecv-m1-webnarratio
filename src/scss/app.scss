@@ -1,0 +1,117 @@
+/* Styles commun à tous les exemples */
+
+$primaryColor: black;
+$secondaryColor: grey;
+$marge: 32px;
+
+*{
+  box-sizing: border-box;
+}
+
+
+  body{
+    font-size: 14px;
+    line-height: 1.2;
+    color: $secondaryColor;
+    background-color: #6A9B00;
+    background-repeat: no-repeat;
+  }
+  
+  b{
+    font-weight: bold;
+    color: $primaryColor;
+  }
+  
+  a{
+    color: darken($primaryColor, 50%);
+    &:hover{
+      color: $primaryColor;
+    }
+  }
+  
+  nav{
+    background-color: lighten($primaryColor, 65%);
+    position: fixed;
+    z-index: 999;
+    top: $marge;
+    right: $marge;
+    padding: $marge / 2;
+  }
+  
+  section{
+    overflow: hidden;
+  }
+  
+  article{
+    height: 100vh;
+    padding: $marge;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  /* 9_grille_dragndrop.html */
+  
+  html#grille_dragndrop{
+    overflow: hidden;
+  //  scroll-behavior: auto;
+    [draggable]{
+      width: 300vw;
+      display: flex;
+      flex-wrap: wrap;
+      > *{
+        width: 100vw;
+      }
+    }
+  }
+  
+  #chapter1{
+    background-image: url(/assets/back-1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #chapter2{
+    background-image: url(/assets/back-2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #chapter3{
+    background-image: url(/assets/back-3.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #chapter4{
+    background-image: url(/assets/back-4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #chapter5{
+    background-image: url(/assets/back-5.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  #chapter6{
+    background-image: url(/assets/back-6.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+
+
+
+
+.loading {
+  background-color: #DFF0FB;
+  font-size: 40px;
+  font-weight: 500;
+
+  h1{
+    color: #25539C;
+    padding: 126px;
+  }
+}
