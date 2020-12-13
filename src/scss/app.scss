@@ -43,7 +43,7 @@ $marge: 32px;
   }
   
   article{
-    height: 100vh;
+    height: 60vh;
     padding: $marge;
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@ $marge: 32px;
     overflow: hidden;
   //  scroll-behavior: auto;
     [draggable]{
-      width: 300vw;
+      width: 205vw;
       display: flex;
       flex-wrap: wrap;
       > *{
@@ -65,42 +65,10 @@ $marge: 32px;
     }
   }
   
-  #chapter1{
-    background-image: url(/assets/back-1.svg);
+  .main{
+    background-image: url(/assets/images/background.svg); 
     background-repeat: no-repeat;
-    background-position: center;
   }
-  
-  #chapter2{
-    background-image: url(/assets/back-2.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  #chapter3{
-    background-image: url(/assets/back-3.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  #chapter4{
-    background-image: url(/assets/back-4.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  #chapter5{
-    background-image: url(/assets/back-5.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  #chapter6{
-    background-image: url(/assets/back-6.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
 
 
 

@@ -38,7 +38,7 @@ section {
 }
 
 article {
-  height: 100vh;
+  height: 60vh;
   padding: 32px;
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@ html#grille_dragndrop {
   overflow: hidden;
 }
 html#grille_dragndrop [draggable] {
-  width: 300vw;
+  width: 205vw;
   display: flex;
   flex-wrap: wrap;
 }
@@ -58,40 +58,9 @@ html#grille_dragndrop [draggable] > * {
   width: 100vw;
 }
 
-#chapter1 {
-  background-image: url(/assets/back-1.svg);
+.main {
+  background-image: url(/assets/images/background.svg);
   background-repeat: no-repeat;
-  background-position: center;
-}
-
-#chapter2 {
-  background-image: url(/assets/back-2.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#chapter3 {
-  background-image: url(/assets/back-3.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#chapter4 {
-  background-image: url(/assets/back-4.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#chapter5 {
-  background-image: url(/assets/back-5.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#chapter6 {
-  background-image: url(/assets/back-6.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .loading {
