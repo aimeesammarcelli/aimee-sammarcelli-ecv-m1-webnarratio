@@ -180,7 +180,7 @@ html#grille_dragndrop [draggable] > * {
 
 .home-main {
   margin-top: 5%;
-  background-image: url(../assets/images/background.svg);
+  background-image: url(../images/background.svg);
   height: 800px;
   background-repeat: no-repeat;
   background-position: center;
