@@ -442,4 +442,12 @@ html#grille_dragndrop [draggable] > * {
   width: 70%;
   margin-left: auto;
 }
+
+.contact-h2 h2 {
+  font-size: 25px;
+  color: black;
+  font-weight: 500;
+  margin-top: 10%;
+  margin-left: 160px;
+}
 /*# sourceMappingURL=app.css.map */
