@@ -222,10 +222,10 @@ html#grille_dragndrop [draggable] > * {
   padding-right: 10px;
 }
 .agriculteur .agriculteur-apropos p {
-  color: white;
+  color: black;
 }
 .agriculteur .agriculteur-description p {
-  color: white !important;
+  color: black !important;
   font-weight: 300;
 }
 .agriculteur .agriculteur-cta {
