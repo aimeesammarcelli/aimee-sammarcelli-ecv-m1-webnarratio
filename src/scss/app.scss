@@ -531,3 +531,14 @@ padding: 100px;
     margin-left: 160px;
   }
 }
+
+
+//responsive 
+
+@media screen and ( max-width:650px ){
+  .about-img-1{
+    img{
+      display: none;
+    }
+  }
+}
