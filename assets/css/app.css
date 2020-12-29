@@ -166,6 +166,7 @@ html#grille_dragndrop [draggable] > * {
   height: 1000px;
   position: absolute;
   z-index: 109;
+  width: 100%;
 }
 #loading .img-agri {
   width: 20%;
