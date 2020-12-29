@@ -159,11 +159,13 @@ $marge: 32px;
     overflow: hidden;
   //  scroll-behavior: auto;
     [draggable]{
-      width: 200vw;
+      width: 249vw;
       display: flex;
       flex-wrap: wrap;
+      margin-top: 110px;
       > *{
-        width: 125vw;
+        width: 43200px;
+        height: 300px;
       }
     }
   }

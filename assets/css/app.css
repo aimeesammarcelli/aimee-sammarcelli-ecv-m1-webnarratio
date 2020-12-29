@@ -139,12 +139,14 @@ html#grille_dragndrop {
   overflow: hidden;
 }
 html#grille_dragndrop [draggable] {
-  width: 200vw;
+  width: 249vw;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 110px;
 }
 html#grille_dragndrop [draggable] > * {
-  width: 125vw;
+  width: 43200px;
+  height: 300px;
 }
 
 .main {
