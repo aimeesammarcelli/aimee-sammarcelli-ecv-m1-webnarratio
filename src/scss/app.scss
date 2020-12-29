@@ -171,7 +171,7 @@ $marge: 32px;
   }
   
   .main{
-    background-image: url(/images/background.svg); 
+    background-image: url(../assets/images/background.svg); 
     background-repeat: no-repeat;
     cursor: grab;
   }
@@ -200,14 +200,14 @@ $marge: 32px;
   article{
     height: 100%;
   }
-}s
+}
 
 
 //---------- home
 
 .home-main{
   margin-top: 5%;
-  background-image: url(../images/background.svg);
+  background-image: url(../assets/images/background.svg);
   height: 800px;
   background-repeat: no-repeat;
   background-position: center;
