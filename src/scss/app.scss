@@ -535,10 +535,10 @@ padding: 100px;
 
 //responsive 
 
-@media screen and (max-width: 850px){
-  .about-img-1{
-    img{
+@media screen and (max-width: 900px){
+  .about-img-1 img
+    {
       display: none;
-    }
+    
   }
 }
