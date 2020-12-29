@@ -175,7 +175,7 @@ html#grille_dragndrop [draggable] > * {
 }
 #loading h1 {
   color: #25539C;
-  padding: 126px;
+  padding: 10px 126px 126px 126px;
   line-height: 1.5;
   text-align: center;
 }
