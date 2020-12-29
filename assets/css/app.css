@@ -161,14 +161,19 @@ html#grille_dragndrop [draggable] > * {
 
 #loading {
   background-color: #DFF0FB;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 500;
   height: 1000px;
   position: absolute;
   z-index: 109;
 }
+#loading .img-agri {
+  width: 20%;
+}
+#loading .img-cabane {
+  width: 20%;
+}
 #loading h1 {
-  margin-top: 5%;
   color: #25539C;
   padding: 126px;
   line-height: 1.5;
