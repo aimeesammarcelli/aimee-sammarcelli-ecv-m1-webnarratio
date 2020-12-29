@@ -580,4 +580,76 @@ padding: 100px;
   .contact-container img{
     display: none;
   }
+
+
+  //about
+
+  .about-acteur .about-acteurs{
+    flex-direction: column;
+  }
+
+  .about-acteur .about-article{
+    width: 90%;
+  }
+
+  .about-acteur .about-acteur-titre h2{
+    width: 90%;
+  }
+
+  .about-img-1 article{
+    width: 90%;
+  }
+
+  .about-banner{
+    padding: 40px;
+
+  }
+  .about-banner .banner-titre{
+    width: 90%;
+    padding: 0;
+  }
+
+  .banner-titre a{
+    width: 64%!important;
+  }
+
+  .about-banner img{
+    width: 100%;
+
+  }
+
+  .contact-h2 h2{
+    margin-left: 1px;
+  }
+
+  .crotte{
+    margin-left: 25px!important;
+  }
+
+  .about-header{
+    margin: 0%;
+    padding-top: 140px;
+    padding-right: 0;
+    padding-left: 20px;
+  }
+
+  .about-img{
+    display: none;
+  }
+
+  .about-header-text{
+    width: 100%;
+  }
+
+  .about-header .about-header-text{
+    width: 100%;
+  }
+
+  .cta-header{
+    padding: 0px 203px 0 0;
+  }
+
+  .about-header .ctaPrimary{
+    width: 361%;
+  }
 }
