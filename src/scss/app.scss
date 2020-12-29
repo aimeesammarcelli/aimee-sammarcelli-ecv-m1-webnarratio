@@ -299,13 +299,13 @@ $marge: 32px;
 .group 			  { 
   position:relative; 
   margin-bottom:45px; 
-  margin-left: 195px;
+  margin-left: 100px;
 }
 input 				{
   font-size:18px;
   padding:10px 10px 10px 5px;
   display:block;
-  width:760px;
+  width:650px;
   border:none;
   border-bottom:1px solid #757575;
 }
@@ -395,7 +395,13 @@ input:focus ~ .highlight {
   color: $primaryColor;
   margin-top: 10%;
   font-size: 50px;
-  margin-left: 160px;
+  margin-left: 68px;
+}
+
+.contact-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 // about
@@ -548,5 +554,30 @@ padding: 100px;
     {
       display: none;
     
+  }
+
+  .container .group{
+    margin-left: 30px;
+  }
+
+  .container input{
+    width: 290px;
+  }
+
+  .cta-contact{
+    margin-left: 30px!important;
+  }
+
+  .contact-h1{
+    margin-left: 30px;
+    margin-top: 20%;
+
+    h1{
+      font-size: 25px;
+    }
+  }
+
+  .contact-container img{
+    display: none;
   }
 }
