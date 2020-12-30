@@ -448,7 +448,7 @@ padding: 100px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 40%;
   }
 
 .about-acteurs{
@@ -471,7 +471,12 @@ padding: 100px;
 }
 
 .about-article{
+  height: 250Px;
   width: 30%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.05);
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 }
@@ -481,9 +486,13 @@ padding: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-content: center;
+justify-content: center;
 
   img{
-    width: 50%;
+    width: 600px;
+height: 600px;
+border-radius: 10px;
   }
 
   article{

@@ -386,7 +386,7 @@ html#grille_dragndrop [draggable] > * {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 40%;
 }
 .about-acteur .about-acteurs {
   display: flex;
@@ -405,7 +405,12 @@ html#grille_dragndrop [draggable] > * {
   color: #001F2B;
 }
 .about-acteur .about-article {
+  height: 250Px;
   width: 30%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.09), 0 10px 10px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 .about-img-1 {
@@ -413,9 +418,13 @@ html#grille_dragndrop [draggable] > * {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 .about-img-1 img {
-  width: 50%;
+  width: 600px;
+  height: 600px;
+  border-radius: 10px;
 }
 .about-img-1 article {
   width: 50%;
