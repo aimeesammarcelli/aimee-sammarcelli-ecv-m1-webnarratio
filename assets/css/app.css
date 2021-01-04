@@ -571,35 +571,23 @@ html#grille_dragndrop [draggable] > * {
     width: 361%;
   }
 }
-.box {
-  width: 40%;
-  margin: 0 auto;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 35px;
-  border: 2px solid #fff;
-  border-radius: 20px/50px;
-  background-clip: padding-box;
+.pop-up-1 .box {
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 256px;
   text-align: center;
 }
-
-.couple {
-  font-size: 1em;
-  padding: 10px;
-  color: #fff;
-  border: 2px solid #06D85F;
-  border-radius: 20px/50px;
-  text-decoration: none;
+.pop-up-1 .box a {
+  padding: 80px 20px;
+}
+.pop-up-1 .button {
   cursor: pointer;
-  transition: all 0.3s ease-out;
 }
-
-.couple:hover {
-  background: #06D85F;
-}
-
-.overlay {
+.pop-up-1 .overlay {
   position: fixed;
-  top: 0;
+  top: 100px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -608,31 +596,33 @@ html#grille_dragndrop [draggable] > * {
   visibility: hidden;
   opacity: 0;
 }
-
-.overlay:target {
+.pop-up-1 .overlay:target {
   visibility: visible;
   opacity: 1;
 }
-
-.popup {
+.pop-up-1 .popup {
   margin: 70px auto;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 30%;
+  width: 50%;
   position: relative;
   transition: all 5s ease-in-out;
 }
-
-.popup h2 {
+.pop-up-1 .popup h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.pop-up-1 .popup h2 {
   margin-top: 0;
   color: #333;
   font-family: Tahoma, Arial, sans-serif;
 }
-
-.popup .close {
+.pop-up-1 .popup .close {
   position: absolute;
-  top: 20px;
+  top: 0px;
   right: 30px;
   transition: all 200ms;
   font-size: 30px;
@@ -640,22 +630,17 @@ html#grille_dragndrop [draggable] > * {
   text-decoration: none;
   color: #333;
 }
-
-.popup .close:hover {
+.pop-up-1 .popup .close:hover {
   color: #06D85F;
 }
-
-.popup .content {
+.pop-up-1 .popup .content {
   max-height: 30%;
-  overflow: auto;
 }
-
 @media screen and (max-width: 700px) {
-  .box {
+  .pop-up-1 .box {
     width: 70%;
   }
-
-  .popup {
+  .pop-up-1 .popup {
     width: 70%;
   }
 }
