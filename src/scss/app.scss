@@ -685,6 +685,17 @@ border-radius: 10px;
 
 //pop-up
 
+.popup .content .nana{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  img{
+    width: 80%;
+  }
+}
+
 .pop-up-1{
 
 .box {

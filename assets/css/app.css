@@ -589,6 +589,16 @@ html#grille_dragndrop [draggable] > * {
     margin-bottom: 10%;
   }
 }
+.popup .content .nana {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.popup .content .nana img {
+  width: 80%;
+}
+
 .pop-up-1 .box {
   width: 50px;
   height: 100px;
