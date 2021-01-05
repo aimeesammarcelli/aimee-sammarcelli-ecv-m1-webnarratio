@@ -169,10 +169,12 @@ html#grille_dragndrop [draggable] > * {
   width: 100%;
 }
 #loading .img-agri {
-  width: 20%;
+  width: 50%;
+  margin-top: 30px;
 }
 #loading .img-cabane {
   width: 20%;
+  margin-top: 30px;
 }
 #loading h1 {
   color: #25539C;
