@@ -211,7 +211,8 @@ html#grille_dragndrop [draggable] > * {
   margin-top: 10% !important;
   display: flex;
   flex-direction: row;
-  margin-left: 15%;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
 }
 .agriculteur img {
   width: 280px;
@@ -221,6 +222,7 @@ html#grille_dragndrop [draggable] > * {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
 }
 .agriculteur .agriculteur-apropos h3 {
   color: #DA3D64;
@@ -239,6 +241,7 @@ html#grille_dragndrop [draggable] > * {
   flex-direction: row;
   justify-content: flex-start;
   text-align: center;
+  flex-wrap: wrap;
 }
 .agriculteur .agriculteur-cta .ctaPrimary {
   margin-right: 20%;
@@ -572,6 +575,14 @@ html#grille_dragndrop [draggable] > * {
 
   .about-header .ctaPrimary {
     width: 361%;
+  }
+
+  .agriculteur {
+    margin-top: 30% !important;
+  }
+
+  .agriculteur .agriculteur-cta .ctaPrimary {
+    margin-bottom: 10%;
   }
 }
 .pop-up-1 .box {

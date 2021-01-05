@@ -245,7 +245,8 @@ $marge: 32px;
   margin-top: 10% !important;
   display: flex;
   flex-direction: row;
-  margin-left: 15%;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
 
 
   img{
@@ -257,6 +258,7 @@ $marge: 32px;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 
     h3{
       color: $pinkColor;
@@ -281,6 +283,7 @@ $marge: 32px;
     flex-direction: row;
     justify-content: flex-start;
     text-align: center;
+    flex-wrap: wrap;
 
     .ctaPrimary{
       margin-right: 20%;
@@ -664,6 +667,14 @@ border-radius: 10px;
 
   .about-header .ctaPrimary{
     width: 361%;
+  }
+
+  .agriculteur{
+    margin-top: 30%!important;
+  }
+
+  .agriculteur .agriculteur-cta .ctaPrimary{
+    margin-bottom: 10%;
   }
 }
 
