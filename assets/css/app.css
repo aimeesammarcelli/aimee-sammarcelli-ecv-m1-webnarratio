@@ -381,6 +381,10 @@ html#grille_dragndrop [draggable] > * {
 .about-header .about-img img {
   width: 80%;
 }
+.about-header .about-img {
+  text-align: center;
+  width: 60%;
+}
 
 .about-acteur {
   margin-top: 130px;
