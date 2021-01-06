@@ -351,12 +351,48 @@ html#grille_dragndrop [draggable] > * {
   margin-top: 10%;
   font-size: 50px;
   margin-left: 68px;
+  color: #DA3D64;
 }
 
 .contact-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 50px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+.contact {
+  margin-bottom: 50px;
+}
+.contact .contact-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.contact .contact-info a {
+  text-decoration: none;
+}
+.contact .contact-info-article {
+  margin: 10px;
+  transition: 0.5s;
+}
+.contact .contact-info-article img {
+  height: 30px;
+  margin-bottom: 20px;
+}
+.contact .contact-info-article p {
+  color: black;
+}
+.contact .contact-info-article:hover {
+  background-color: white;
+  border-radius: 5px;
 }
 
 .about-header {
@@ -513,6 +549,11 @@ html#grille_dragndrop [draggable] > * {
 
   .contact-container img {
     display: none;
+  }
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .about-acteur .about-acteurs {
@@ -969,5 +1010,9 @@ html#grille_dragndrop [draggable] > * {
   .pop-up-5 .popup {
     width: 70%;
   }
+}
+
+.about-acteur a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=app.css.map */

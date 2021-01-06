@@ -405,12 +405,58 @@ input:focus ~ .highlight {
   margin-top: 10%;
   font-size: 50px;
   margin-left: 68px;
+  color: $pinkColor;
 }
 
 .contact-container{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 50px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+
+.contact{
+
+  margin-bottom: 50px;
+
+ .contact-info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+  
+  
+
+  a{
+    text-decoration: none;
+  }
+}
+
+.contact-info-article{
+  margin: 10px;
+  transition: 0.5s;
+
+  img{
+    height: 30px;
+    margin-bottom: 20px;
+  }
+
+  p{
+    color: black;
+  }
+}
+.contact-info-article:hover{
+  background-color: white;
+  border-radius: 5px;
+}
 }
 
 // about
@@ -602,6 +648,11 @@ border-radius: 10px;
 
   .contact-container img{
     display: none;
+  }
+
+  .container{
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -1119,3 +1170,8 @@ border-radius: 10px;
   }
   }
 
+  .about-acteur{
+    a{
+      text-decoration: none;
+    }
+  }
