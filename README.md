@@ -8,4 +8,4 @@ Le but de ce jeux est de ce balader sur la carte pour trouver les differents agr
 
 Si besoin d'aide on peut toujours trouver la cabane qui vous donnera les informations necessaires
 
-<img src="assets/images/cabane.svg" alt="">
+<img style="width:50%" src="assets/images/cabane.svg" alt="">
