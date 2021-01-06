@@ -5,7 +5,3 @@ Création d'une map qui a pour objectif de mettre en avant les valeurs de l'asso
 Le but de ce jeux est de ce balader sur la carte pour trouver les differents agriculteurs caché dans la carte
 
 <img src="assets/images/illu.svg" alt="">
-
-Si besoin d'aide on peut toujours trouver la cabane qui vous donnera les informations necessaires
-
-<img style="width:50%" src="assets/images/cabane.svg" alt="">
