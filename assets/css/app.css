@@ -216,8 +216,45 @@ html#grille_dragndrop [draggable] > * {
   justify-content: space-evenly;
   flex-wrap: wrap-reverse;
 }
-.agriculteur img {
+.agriculteur .img {
+  background-image: url(/assets/images/agriculteur-1.png);
   width: 280px;
+  height: 373px;
+  background-size: contain;
+}
+.agriculteur .img:hover {
+  background-image: url(/assets/images/geert.svg);
+  background-repeat: no-repeat;
+}
+.agriculteur .img-antoine {
+  background-image: url(/assets/images/antoine.png);
+  width: 280px;
+  height: 373px;
+  background-size: contain;
+}
+.agriculteur .img-antoine:hover {
+  background-image: url(/assets/images/antoine.svg);
+  background-repeat: no-repeat;
+}
+.agriculteur .img-hugues {
+  background-image: url(/assets/images/hugues.png);
+  width: 280px;
+  height: 373px;
+  background-size: contain;
+}
+.agriculteur .img-hugues:hover {
+  background-image: url(/assets/images/hugues.svg);
+  background-repeat: no-repeat;
+}
+.agriculteur .img-richard {
+  background-image: url(/assets/images/richard.png);
+  width: 280px;
+  height: 373px;
+  background-size: contain;
+}
+.agriculteur .img-richard:hover {
+  background-image: url(/assets/images/richard-a.png);
+  background-repeat: no-repeat;
 }
 .agriculteur .agriculteur-apropos {
   display: flex;

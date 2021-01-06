@@ -251,8 +251,52 @@ $marge: 32px;
   flex-wrap: wrap-reverse;
 
 
-  img{
+  .img{
+    background-image: url(/assets/images/agriculteur-1.png);
     width: 280px;
+  height: 373px;
+  background-size: contain; 
+  }
+
+  .img:hover{
+    background-image: url(/assets/images/geert.svg);
+    background-repeat: no-repeat;
+  }
+
+  .img-antoine{
+    background-image: url(/assets/images/antoine.png);
+    width: 280px;
+  height: 373px;
+  background-size: contain; 
+  }
+
+  .img-antoine:hover{
+    background-image: url(/assets/images/antoine.svg);
+    background-repeat: no-repeat;
+  }
+
+  .img-hugues{
+    background-image: url(/assets/images/hugues.png);
+    width: 280px;
+  height: 373px;
+  background-size: contain; 
+  }
+
+  .img-hugues:hover{
+    background-image: url(/assets/images/hugues.svg);
+    background-repeat: no-repeat;
+  }
+
+  .img-richard{
+    background-image: url(/assets/images/richard.png);
+    width: 280px;
+  height: 373px;
+  background-size: contain; 
+  }
+
+  .img-richard:hover{
+    background-image: url(/assets/images/richard-a.png);
+    background-repeat: no-repeat;
   }
 
   .agriculteur-apropos{
@@ -726,6 +770,8 @@ border-radius: 10px;
   .about-header .ctaPrimary{
     width: 361%;
   }
+
+  //agriculteur
 
   .agriculteur{
     margin-top: 30%!important;
