@@ -593,6 +593,10 @@ padding: 100px;
   align-content: center;
 justify-content: center;
 
+p{
+  font-weight: 300!important;
+}
+
   img{
     width: 600px;
 height: 600px;
@@ -953,6 +957,7 @@ border-radius: 10px;
   }
   
   @media screen and (max-width: 700px){
+
     .box{
       width: 70%;
     }
@@ -1128,6 +1133,8 @@ border-radius: 10px;
     .popup{
       width: 70%;
     }
+
+
   }
   }
 
@@ -1207,6 +1214,8 @@ border-radius: 10px;
   }
   
   @media screen and (max-width: 700px){
+
+
     .box{
       width: 70%;
     }
